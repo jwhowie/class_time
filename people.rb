@@ -25,3 +25,8 @@ chris.greeting
 
 cristina = Student.new("Cristina")
 cristina.greeting
+
+chris.teach
+cristina.learn
+# Cannot call teach on a student as the method is not defined in the student class hierarchy
+#cristing.teach
